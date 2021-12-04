@@ -1,0 +1,13 @@
+.moviesList {
+  position: absolute;
+  display: flex;
+}
+
+@media (max-width: 420px) {
+  .moviesList {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+  }
+}
